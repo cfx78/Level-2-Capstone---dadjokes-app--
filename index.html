@@ -15,8 +15,24 @@
 		<title>Document</title>
 	</head>
 	<body class="bg-secondary">
-		<div class="container-fluid main-container">
-			<div id="newJoke">This is a joke right?</div>
+		<nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
+			<div class="nav navbar-nav container-fluid">
+				<a class="navbar-brand">Oh You Got Jokes Huh?</a>
+				<form class="d-flex" role="search">
+					<input
+						class="form-control me-2"
+						type="search"
+						placeholder="Search"
+						aria-label="Search" />
+					<button class="btn btn-outline-success" type="submit">
+						Search
+					</button>
+				</form>
+			</div>
+		</nav>
+		<div
+			class="border border-5 pb-5 pt-3 border-dark display-4 rounded-1 container-fluid main-container">
+			<div id="newJoke" class="mb-3">This is a joke right?</div>
 			<button id="jokeBtn" class="btn btn-primary">
 				Push it real good
 			</button>

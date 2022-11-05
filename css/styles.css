@@ -1,8 +1,10 @@
 .main-container {
-  position: absolute;
   text-align: center;
   top: 50%;
   background-color: aliceblue;
+  width: 50%;
+  vertical-align: middle;
+  margin-top: 20%;
 }
 
 /*# sourceMappingURL=styles.css.map */
