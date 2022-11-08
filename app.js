@@ -20,3 +20,9 @@ function getJoke() {
 }
 
 btn.addEventListener('click', getJoke);
+
+$(function () {
+	var BV = new $.BigVideo();
+	BV.init();
+	BV.show('https://www.youtube.com/watch?v=NZD3q-o2CBA');
+});
